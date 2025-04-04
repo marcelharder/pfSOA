@@ -13,17 +13,17 @@ services:
     volumes:
       - mariadb-data:/var/lib/mysql
   
-#  pfsoa_service:
-#    image: foto_app:v6
-#    restart: always
-#    ports:
-#      - 8103:80
-#    networks: 
-#      - internal-container-network
-#    volumes:
-#      - sqldata:/root/.aspnet/DataProtection-Keys
-#    depends_on:
-#      - db
+  pfsoa_service:
+    image: pfsoa_app:v1
+    restart: always
+    ports:
+     - 8115:80
+    networks: 
+      - internal-container-network
+    volumes:
+      - sqldata:/root/.aspnet/DataProtection-Keys
+    depends_on:
+      - db
   
 
 volumes:
