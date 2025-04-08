@@ -41,3 +41,8 @@
 /home/marcel/code/pfSOA/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
 /home/marcel/code/pfSOA/bin/Debug/net7.0/Mono.TextTemplating.dll
 /home/marcel/code/pfSOA/bin/Debug/net7.0/System.CodeDom.dll
+/home/marcel/code/pfSOA/bin/Debug/net7.0/Release/web.config
+/home/marcel/code/pfSOA/bin/Debug/net7.0/Release/appsettings.Development.json
+/home/marcel/code/pfSOA/bin/Debug/net7.0/Release/appsettings.json
+/home/marcel/code/pfSOA/bin/Debug/net7.0/Release/pfSOA.deps.json
+/home/marcel/code/pfSOA/bin/Debug/net7.0/Release/pfSOA.runtimeconfig.json
