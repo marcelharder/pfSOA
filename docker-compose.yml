@@ -14,7 +14,7 @@ services:
       - mariadb-data:/var/lib/mysql
   
   pfsoa_service:
-    image: pfsoa_app:v2
+    image: pfsoa_app:v3
     restart: always
     ports:
      - 8115:80
